@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-26T15:27:34 IST" name="SalesAstra Login only" finished-at="2026-11-26T15:28:30 IST" duration-ms="56159">
+    <groups>
+      <group name="smoke">
+        <method signature="SalesAstraSanityTest.TC_21_verifyLoginFormDisplayed()[pri:21, instance:com.salesastra.tests.SalesAstraSanityTest@7a791b66]" name="TC_21_verifyLoginFormDisplayed" class="com.salesastra.tests.SalesAstraSanityTest"/>
+        <method signature="SalesAstraSanityTest.TC_22_verifyUserCanLogin()[pri:22, instance:com.salesastra.tests.SalesAstraSanityTest@7a791b66]" name="TC_22_verifyUserCanLogin" class="com.salesastra.tests.SalesAstraSanityTest"/>
+      </group> <!-- smoke -->
+      <group name="login">
+        <method signature="SalesAstraSanityTest.TC_21_verifyLoginFormDisplayed()[pri:21, instance:com.salesastra.tests.SalesAstraSanityTest@7a791b66]" name="TC_21_verifyLoginFormDisplayed" class="com.salesastra.tests.SalesAstraSanityTest"/>
+        <method signature="SalesAstraSanityTest.TC_22_verifyUserCanLogin()[pri:22, instance:com.salesastra.tests.SalesAstraSanityTest@7a791b66]" name="TC_22_verifyUserCanLogin" class="com.salesastra.tests.SalesAstraSanityTest"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2026-11-26T15:27:34 IST" name="Login" finished-at="2026-11-26T15:28:30 IST" duration-ms="56159">
+      <class name="com.salesastra.tests.SalesAstraSanityTest">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.salesastra.tests.SalesAstraSanityTest@7a791b66]" started-at="2026-11-26T15:27:33 IST" name="setUpSuite" finished-at="2026-11-26T15:27:34 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUpMethod(org.testng.ITestResult)[pri:0, instance:com.salesastra.tests.SalesAstraSanityTest@7a791b66]" started-at="2026-11-26T15:27:34 IST" name="setUpMethod" finished-at="2026-11-26T15:27:40 IST" duration-ms="6017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SalesAstraSanityTest.TC_21_verifyLoginFormDisplayed()[pri:21, instance:com.salesastra.tests.SalesAstraSanityTest@7a791b66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="TC_21_verifyLoginFormDisplayed()[pri:21, instance:com.salesastra.tests.SalesAstraSanityTest@7a791b66]" started-at="2026-11-26T15:27:40 IST" name="TC_21_verifyLoginFormDisplayed" description="TC-21 | Login form displayed" finished-at="2026-11-26T15:27:56 IST" duration-ms="16054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_21_verifyLoginFormDisplayed -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.salesastra.tests.SalesAstraSanityTest@7a791b66]" started-at="2026-11-26T15:27:56 IST" name="tearDownMethod" finished-at="2026-11-26T15:28:06 IST" duration-ms="9802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_21_verifyLoginFormDisplayed status=SUCCESS method=SalesAstraSanityTest.TC_21_verifyLoginFormDisplayed()[pri:21, instance:com.salesastra.tests.SalesAstraSanityTest@7a791b66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod(org.testng.ITestResult)[pri:0, instance:com.salesastra.tests.SalesAstraSanityTest@7a791b66]" started-at="2026-11-26T15:28:06 IST" name="setUpMethod" finished-at="2026-11-26T15:28:06 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SalesAstraSanityTest.TC_22_verifyUserCanLogin()[pri:22, instance:com.salesastra.tests.SalesAstraSanityTest@7a791b66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="TC_22_verifyUserCanLogin()[pri:22, instance:com.salesastra.tests.SalesAstraSanityTest@7a791b66]" started-at="2026-11-26T15:28:06 IST" name="TC_22_verifyUserCanLogin" description="TC-22 | User can sign in" finished-at="2026-11-26T15:28:12 IST" depends-on-methods="com.salesastra.tests.SalesAstraSanityTest.TC_21_verifyLoginFormDisplayed" duration-ms="6369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_22_verifyUserCanLogin -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.salesastra.tests.SalesAstraSanityTest@7a791b66]" started-at="2026-11-26T15:28:12 IST" name="tearDownMethod" finished-at="2026-11-26T15:28:27 IST" duration-ms="14876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_22_verifyUserCanLogin status=SUCCESS method=SalesAstraSanityTest.TC_22_verifyUserCanLogin()[pri:22, instance:com.salesastra.tests.SalesAstraSanityTest@7a791b66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.salesastra.tests.SalesAstraSanityTest@7a791b66]" started-at="2026-11-26T15:28:27 IST" name="closeBrowser" finished-at="2026-11-26T15:28:30 IST" duration-ms="2927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.salesastra.tests.SalesAstraSanityTest@7a791b66]" started-at="2026-11-26T15:28:30 IST" name="tearDownSuite" finished-at="2026-11-26T15:28:31 IST" duration-ms="1311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.salesastra.tests.SalesAstraSanityTest -->
+    </test> <!-- Login -->
+  </suite> <!-- SalesAstra Login only -->
+</testng-results>

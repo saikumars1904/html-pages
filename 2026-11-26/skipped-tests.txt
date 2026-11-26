@@ -1,0 +1,14 @@
+Skipped tests (4)
+Suite: Default Suite
+Context: TestNGTest-b596e75b-6479-47b1-91b1-6ff94e4bcd1f
+------------------------------------------------------------
+TC_34_editContactAndAdvancedFilter | TC-34 | Edit contact and filter
+  reason: Method com.salesastra.tests.SalesAstraSanityTest.TC_34_editContactAndAdvancedFilter() on instance com.salesastra.tests.SalesAstraSanityTest@bff34c6 depends on not successfully finished methods 
+[com.salesastra.tests.SalesAstraSanityTest.TC_33_createContact() on instance com.salesastra.tests.SalesAstraSanityTest@bff34c6]
+TC_35_createContactViewForTaggedOwner | TC-35 | Create contact view
+  reason: Method com.salesastra.tests.SalesAstraSanityTest.TC_35_createContactViewForTaggedOwner() on instance com.salesastra.tests.SalesAstraSanityTest@bff34c6 depends on not successfully finished methods 
+[com.salesastra.tests.SalesAstraSanityTest.TC_34_editContactAndAdvancedFilter() on instance com.salesastra.tests.SalesAstraSanityTest@bff34c6]
+TC_38_createOrganizationViewForTaggedOwner | TC-38 | Create organization view
+  reason: Organization tag was not applied in TC-37; cannot build a tagged view
+TC_44_calendarScheduleMeetingAndViews | TC-44 | Calendar: schedule meeting and switch Day/Week/Month views
+  reason: Connect Google Calendar or Outlook in the workspace before scheduling a meeting. Day, Week, and Month controls were verified.
